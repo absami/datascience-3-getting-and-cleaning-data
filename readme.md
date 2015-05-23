@@ -16,7 +16,6 @@ Later, measurements related to the mean and standard deviation are extracted fro
 ```
 install.packages("reshape")
 ```
-
 5. Run the file, `run_analysis.R` using your preferred method / IDE. The script will take some time to work with the data and as a result, a file named `tidy_data.txt` is generated in the user's home directory.
 
 
