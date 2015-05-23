@@ -2,6 +2,8 @@
 ### About the Original Source of data
 Original source of this data can be found at the following link:
 [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+The data can be downloaded from here:
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 The original data is generated through a series of data collection experiments on 30 volunteers while doing different body activities. Activities include `Walking`, `Walking Upstairs`, `Walking Downstairs`, `Sitting`, `Standing` and `Laying`. The data accumulated as a result of these activities is then refined by applying different filters, and segregated into feature vectors. For detailed information of the original dataset refer to its accompanying documents namely the `README.txt` and `features_info.txt`.
 

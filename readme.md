@@ -9,13 +9,13 @@ Later, measurements related to the mean and standard deviation are extracted fro
 
 ### How to run the script
 1. Download the UCI HAR Data set from here:
-   [http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+   [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip ](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 2. Unzip the downloaded dataset to your home directory. If you wish to select some other path, feel free to modify the run_analysis.R script.
 3. Clone this repo.
 4. Only one external package is required, namely the `reshape` package. You can install `reshape` package using
-```
-install.packages("reshape")
-```
+    ```
+    install.packages("reshape")
+    ```
 5. Run the file, `run_analysis.R` using your preferred method / IDE. The script will take some time to work with the data and as a result, a file named `tidy_data.txt` is generated in the user's home directory.
 
 
