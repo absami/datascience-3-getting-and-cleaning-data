@@ -14,7 +14,7 @@ Later, measurements related to the mean and standard deviation are extracted fro
 3. Clone this repo.
 4. Only one external package is required, namely the `reshape` package. You can install `reshape` package using
 
-install.packages("reshape")
+   install.packages("reshape")
 
 5. Run the file, `run_analysis.R` using your preferred method / IDE. The script will take some time to work with the data and as a result, a file named `tidy_data.txt` is generated in the user's home directory.
 
