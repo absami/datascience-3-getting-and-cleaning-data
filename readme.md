@@ -13,8 +13,9 @@ Later, measurements related to the mean and standard deviation are extracted fro
 2. Unzip the downloaded dataset to your home directory. If you wish to select some other path, feel free to modify the run_analysis.R script.
 3. Clone this repo.
 4. Only one external package is required, namely the `reshape` package. You can install `reshape` package using
-
-   install.packages("reshape")
+```
+install.packages("reshape")
+```
 
 5. Run the file, `run_analysis.R` using your preferred method / IDE. The script will take some time to work with the data and as a result, a file named `tidy_data.txt` is generated in the user's home directory.
 
@@ -22,10 +23,10 @@ Later, measurements related to the mean and standard deviation are extracted fro
 ### Output of the script
 At the end of the script run, a file named `tidy_data.txt` is generated in the home directory by default. The script will also notify you of the path where the file has been saved.
 Intermediate variables that may not be required anymore are cleaned off the workspace using `rm` commands. Some variables are delibrately left for user review. These variables are
-`data`       - The original data
-`final_data` - Original data with Subject and Activity variables appended
-`d`          - 180 observations of 81 variables. Mean and Standard Deviation related data
-`dmelt`      - Melted data from `d`, with four variable columns: Subject  |  Activity  |  Feature.Names  |  Means
+* `data`       - The original data
+* `final_data` - Original data with Subject and Activity variables appended
+* `d`          - 180 observations of 81 variables. Mean and Standard Deviation related data
+* `dmelt`      - Melted data from `d`, with four variable columns: Subject  |  Activity  |  Feature.Names  |  Means
 
 ### Citations
 Data tidying concepts as found in the following document have been applied to clean the data
